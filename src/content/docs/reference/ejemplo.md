@@ -1,5 +1,5 @@
 ---
-title: titulo chido
+title: Titulo chido
 ---
 hola mundo
 

@@ -1,12 +1,11 @@
 ---
 title: Ejemplo De Guias
-description: A guide in my new Starlight docs site.
+description: Un ejemplo de una guía con Starlight.
 ---
 
-Guides lead a user through a specific task they want to accomplish, often with a sequence of steps.
-Writing a good guide requires thinking about what your users are trying to do.
+Las guías guían al usuario a través de una tarea específica que desea realizar, a menudo con una secuencia de pasos. Escribir una buena guía requiere pensar en lo que los usuarios intentan hacer.
 
-Hola mundo
+Hola mundo.
 
 ## Further reading
 
