@@ -1,5 +1,5 @@
 ---
-title: Example Guide
+title: Ejemplo De Guias
 description: A guide in my new Starlight docs site.
 ---
 
@@ -15,3 +15,5 @@ Hola mundo
 ## Hola mundo
 
 Este es un simple texto de prueva para poder ver
+
+entra [a mi pagina](/ejemplo)
