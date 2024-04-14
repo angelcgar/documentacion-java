@@ -9,7 +9,7 @@ export default defineConfig({
     starlight({
       title: 'Documentación de Java',
       social: {
-        github: 'https://github.com/withastro/starlight',
+        github: 'https://github.com/angelcgar/documentacion-java',
       },
       sidebar: [
         {
@@ -29,6 +29,12 @@ export default defineConfig({
           },
         },
       ],
+      locales: {
+        root: {
+          label: "Español",
+          lang: "es"
+        }
+      }
     }),
     markdoc(),
   ],
