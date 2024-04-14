@@ -34,7 +34,10 @@ export default defineConfig({
           label: "Español",
           lang: "es"
         }
-      }
+      },
+      customCss: [
+        './src/styles/css-reset-2024.css'
+      ]
     }),
     markdoc(),
   ],
