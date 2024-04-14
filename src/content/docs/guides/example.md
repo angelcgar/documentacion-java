@@ -1,6 +1,6 @@
 ---
-title: Ejemplo De Guias
-description: Un ejemplo de una guía con Starlight.
+title: Como empezar
+description: Una guía de como comenzar con la documentación de Java.
 ---
 
 Las guías guían al usuario a través de una tarea específica que desea realizar, a menudo con una secuencia de pasos. Escribir una buena guía requiere pensar en lo que los usuarios intentan hacer.
