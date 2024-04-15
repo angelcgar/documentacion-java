@@ -41,4 +41,11 @@ export default defineConfig({
     }),
     markdoc(),
   ],
+  experimental: {
+    security: {
+      csrfProtection: {
+        origin: true,
+      }
+    }
+  }
 });
