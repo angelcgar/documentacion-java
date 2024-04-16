@@ -2,8 +2,9 @@
 - [] Buscar una imagen de inicio de pagina con la imagen de "Java"
 - [x] Como agregar modulos de css en la raiz o en los archivos de la documentación
 - [x] Revisar la documentación de Starlight
-- [] Hacer algo con las cuatro cartas al pie de pagina
-- [] Como agregar codigo de muestra para el usuario
+- [x] Hacer algo con las cuatro cartas al pie de pagina
+- [x] Como agregar codigo de muestra para el usuario
 - [] Y como cambiar el color de cada linea de codigo mostrada
 - [] Revisar la documentación de Java
-- [] Estudiar el formato Markdown
+- [x] Estudiar el formato Markdown
+- [] Agregar un CMS para la documentación
