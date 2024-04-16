@@ -8,3 +8,4 @@
 - [] Revisar la documentación de Java
 - [x] Estudiar el formato Markdown
 - [] Agregar un CMS para la documentación
+- [] Agregar Tailwind
