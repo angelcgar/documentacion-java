@@ -11,3 +11,4 @@
 - [x] Agregar Tailwind
 - [x] Agregar un tema para la documentación
 - [] Agregar una pagina contribusiones
+- [] Analizar la plantilla de docs Astro
