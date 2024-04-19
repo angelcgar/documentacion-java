@@ -8,6 +8,6 @@
 - [] Revisar la documentación de Java
 - [x] Estudiar el formato Markdown
 - [] Agregar un CMS para la documentación
-- [] Agregar Tailwind
-- [] Agregar un tema para la documentación
+- [x] Agregar Tailwind
+- [x] Agregar un tema para la documentación
 - [] Agregar una pagina contribusiones
