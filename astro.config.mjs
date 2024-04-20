@@ -21,29 +21,30 @@ export default defineConfig({
         {
           label: 'Empieza aqui',
           items: [
-          // Each item here is one entry in the navigation menu.
-          {
-            label: 'Cómo empezar',
-            link: '/guides/introduction/'
-          }, {
-            label: 'Instalación',
-            link: '/guides/install/'
-          }, {
-            label: 'Instalación',
-            link: '/guides/example/'
-          }]
+            // Each item here is one entry in the navigation menu.
+            {
+              label: 'Cómo empezar',
+              link: '/guides/introduction/'
+            }, {
+              label: 'Instalación',
+              link: '/guides/install/'
+            }, {
+              label: 'Instalación',
+              link: '/guides/example/'
+            }
+          ]
         },
         {
-        label: 'Reference',
-        autogenerate: {
-          directory: 'reference'
-        }
+          label: 'Reference',
+          autogenerate: {
+            directory: 'reference'
+          }
         }
       ],
       social: {
         github: 'https://github.com/angelcgar/documentacion-java'
       },
-      pagefind: false,
+      // pagefind: true,
       head: [
         {
           tag: 'link',
