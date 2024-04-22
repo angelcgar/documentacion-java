@@ -39,6 +39,12 @@ export default defineConfig({
           autogenerate: {
             directory: 'reference'
           }
+        },
+        {
+          label: 'Mi label',
+          autogenerate: {
+            directory: 'install'
+          }
         }
       ],
       social: {
@@ -58,7 +64,7 @@ export default defineConfig({
   ],
   trailingSlash: 'always',
   scopedStyleStrategy: 'where',
-  compressHTML: false,
+  compressHTML: true,
   markdown: {
     smartypants: false
   },

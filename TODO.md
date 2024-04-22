@@ -1,5 +1,5 @@
 - [x] Agregar un css reset en la raiz del proyecto
-- [] Buscar una imagen de inicio de pagina con la imagen de "Java"
+- [x] Buscar una imagen de inicio de pagina con la imagen de "Java"
 - [x] Como agregar modulos de css en la raiz o en los archivos de la documentación
 - [x] Revisar la documentación de Starlight
 - [x] Hacer algo con las cuatro cartas al pie de pagina
@@ -12,3 +12,4 @@
 - [x] Agregar un tema para la documentación
 - [] Agregar una pagina contribusiones
 - [] Analizar la plantilla de docs Astro
+- [] Insvestigar mas hacerca de este sidebar y hacerlo dinamico

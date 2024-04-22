@@ -1,5 +1,5 @@
 ---
-title: Titulo chido
+title: Titulo Genial
 ---
 hola mundo
 
