@@ -35,13 +35,13 @@ export default defineConfig({
           ]
         },
         {
-          label: 'Reference',
+          label: 'Conceptos Principales',
           autogenerate: {
             directory: 'reference'
           }
         },
         {
-          label: 'Mi label',
+          label: 'Conceptos Básicos',
           autogenerate: {
             directory: 'install'
           }
