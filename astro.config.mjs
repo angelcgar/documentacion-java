@@ -40,12 +40,12 @@ export default defineConfig({
             directory: 'reference'
           }
         },
-        {
-          label: 'Conceptos Básicos',
-          autogenerate: {
-            directory: 'install'
-          }
-        }
+        // {
+        //   label: 'Conceptos Básicos',
+        //   autogenerate: {
+        //     directory: 'install'
+        //   }
+        // }
       ],
       social: {
         github: 'https://github.com/angelcgar/documentacion-java'
