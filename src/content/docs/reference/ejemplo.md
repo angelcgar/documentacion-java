@@ -1,7 +1,7 @@
 ---
 title: Titulo Genial
 ---
-hola mundo
+hola mundo esta es una actualizacion del momento
 
 ## hola
 
