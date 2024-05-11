@@ -37,7 +37,7 @@ export default defineConfig({
         {
           label: 'Conceptos Principales',
           autogenerate: {
-            directory: 'reference'
+            directory: 'reference/algo'
           }
         },
         // {
