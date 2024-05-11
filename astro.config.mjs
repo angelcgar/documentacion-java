@@ -1,16 +1,15 @@
-import { defineConfig, sharpImageService } from 'astro/config';
+import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
-import markdoc from '@astrojs/markdoc';
+// import markdoc from '@astrojs/markdoc';
 
-import tailwind from "@astrojs/tailwind";
-import service from 'astro/assets/services/squoosh';
+// import service from 'astro/assets/services/squoosh';
 
 // https://astro.build/config
 export default defineConfig({
   integrations: [
     starlight({
       title: 'Documentación de Java',
-      customCss: ['./src/styles/css-reset-2024.css', './src/tailwind.css'],
+      customCss: ['./src/styles/css-reset-2024.css'],
       locales: {
         root: {
           label: "Español",
@@ -60,7 +59,7 @@ export default defineConfig({
           }
         }
       ]
-    }), markdoc(), tailwind({applyBaseStyles: false})
+    }),
   ],
   trailingSlash: 'always',
   scopedStyleStrategy: 'where',
@@ -68,7 +67,7 @@ export default defineConfig({
   markdown: {
     smartypants: false
   },
-  image: {service: sharpImageService()},
+  // image: {service: sharpImageService()},
   experimental: {
     security: {
       csrfProtection: {
