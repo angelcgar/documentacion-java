@@ -39,12 +39,12 @@ export default defineConfig({
             directory: 'reference/algo'
           }
         },
-        // {
-        //   label: 'Conceptos Básicos',
-        //   autogenerate: {
-        //     directory: 'install'
-        //   }
-        // }
+        {
+          label: 'Conceptos Básicos',
+          autogenerate: {
+            directory: 'reference/install'
+          }
+        }
       ],
       social: {
         github: 'https://github.com/angelcgar/documentacion-java'
