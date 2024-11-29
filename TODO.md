@@ -1,15 +1,15 @@
-- [x] Agregar un css reset en la raiz del proyecto
-- [x] Buscar una imagen de inicio de pagina con la imagen de "Java"
-- [x] Como agregar modulos de css en la raiz o en los archivos de la documentación
-- [x] Revisar la documentación de Starlight
-- [x] Hacer algo con las cuatro cartas al pie de pagina
+## Mejorar la experiencia del usuario
+
 - [x] Como agregar codigo de muestra para el usuario
 - [] Y como cambiar el color de cada linea de codigo mostrada
+
+## Investigar mas hacerca del lenguaje java
+
 - [] Revisar la documentación de Java
-- [x] Estudiar el formato Markdown
-- [] Agregar un CMS para la documentación
-- [x] Agregar Tailwind
-- [x] Agregar un tema para la documentación
-- [] Agregar una pagina contribusiones
-- [] Analizar la plantilla de docs Astro
-- [] Insvestigar mas hacerca de este sidebar y hacerlo dinamico
+
+## No prioridad
+
+- Agregar un CMS para la documentación
+- Agregar una pagina contribusiones
+- Analizar la plantilla de docs Astro
+- Insvestigar mas hacerca de este sidebar y hacerlo dinamico
