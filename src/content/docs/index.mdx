@@ -1,34 +1,50 @@
 ---
-title: Documentación no oficial de Java
-description: Comenzemos con la documentación en Starlight.
+title: Documentación de Java
+description: Documentación moderna de Java en español para la comunidad hispanohablante.
 template: splash
 hero:
-  tagline: Esta no es la documentación oficial de Java.
+  tagline: Documentación moderna de Java en español. Aprende el lenguaje como se usa hoy.
   image:
     file: ../../assets/java.webp
   actions:
-    - text: Comencemos
-      link: /guides/introduction/
+    - text: Comenzar
+      link: /introduccion/bienvenida/
       icon: right-arrow
       variant: primary
-    - text: Visitar la documentación oficial de Java
-      link: https://docs.oracle.com/en/java/
-      icon: external
+    - text: Ver en GitHub
+      link: https://github.com/angelcgar/documentacion-java
+      icon: github
 ---
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
 
+## ¿Por qué esta documentación?
+
+Esta documentación está escrita para la comunidad hispanohablante de Java. No es un tutorial básico, sino una guía práctica y moderna que cubre desde los fundamentos hasta conceptos avanzados.
+
 <CardGrid stagger>
-	<Card title="Portabilidad y Versatilidad" icon="laptop">
-		Java es conocido por su capacidad de ser ejecutado en múltiples plataformas sin necesidad de recompilación. Esto significa que puedes escribir una vez y ejecutar en cualquier lugar, lo que simplifica enormemente el desarrollo y la distribución de aplicaciones.
+	<Card title="Java moderno" icon="approve-check">
+		Enfocado en versiones LTS actuales y prácticas que funcionan en proyectos reales. Sin contenido obsoleto.
 	</Card>
-	<Card title="Ecosistema Robusto" icon="seti:lock">
-		Java cuenta con un vasto ecosistema de bibliotecas, frameworks y herramientas que facilitan el desarrollo de aplicaciones de cualquier tamaño y complejidad. Desde frameworks de desarrollo web como Spring hasta herramientas de construcción como Maven, Java ofrece todo lo necesario para construir aplicaciones sólidas y escalables.
+	<Card title="Explicaciones claras" icon="open-book">
+		Conceptos explicados de forma directa, sin complejidad innecesaria. Enfoque práctico sobre teoría excesiva.
 	</Card>
-	<Card title="Seguridad y Fiabilidad" icon="setting">
-		Java se ha ganado una reputación por su enfoque en la seguridad y la fiabilidad. Con su arquitectura de sandbox y su sistema de gestión de memoria robusto, Java proporciona un entorno seguro y estable para el desarrollo de aplicaciones críticas para el negocio.
+	<Card title="Ecosistema completo" icon="setting">
+		Desde la JVM hasta Spring Boot. Cubre herramientas, testing, arquitectura y buenas prácticas reales.
 	</Card>
-	<Card title="Comunidad Activa y Soporte Continuo" icon="open-book">
-		Java cuenta con una comunidad global de desarrolladores apasionados y expertos que están constantemente trabajando en mejorar el lenguaje y su ecosistema. Además, Oracle, la empresa detrás de Java, proporciona soporte técnico continuo y actualizaciones regulares para garantizar que Java siga siendo relevante y eficiente en el futuro.
+	<Card title="Comunidad hispanohablante" icon="translate">
+		Escrito en español claro y neutral. Hecho por y para desarrolladores de habla hispana.
 	</Card>
 </CardGrid>
+
+## ¿Qué encontrarás aquí?
+
+- **Fundamentos sólidos**: Sintaxis, tipos de datos, POO, excepciones y colecciones explicados claramente.
+- **JVM en profundidad**: Entiende cómo funciona realmente Java bajo el capó.
+- **Herramientas modernas**: Maven, Gradle, IDEs y gestión de dependencias.
+- **Buenas prácticas**: Patrones, convenciones y errores comunes a evitar.
+- **Testing real**: JUnit, Mockito y estrategias de testing efectivas.
+- **Backend moderno**: Spring Boot, APIs REST y arquitectura escalable.
+- **Kotlin Multiplatform**: Una introducción opcional para desarrolladores Java interesados en KMP.
+
+Esta documentación se construye con experiencia real en proyectos Java. No es un simple proyecto de portafolio, sino un recurso que busca aportar valor real a la comunidad.
